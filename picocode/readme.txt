@@ -1,0 +1,1 @@
+these files are meant to be uploaded to the Pico W!
