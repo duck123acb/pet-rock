@@ -43,6 +43,9 @@ It’s powered by [Ollama](https://ollama.com/), a local AI server, and communic
   Other side - GPIO 16
 ```
 
+4. It should look something like this:  
+![Image of wiring](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f1481f8906b145663acf6f742a70f9930c0e0497_img_1319.jpeg)
+
 ### Steps to Run:
 1. Add all of the files in the [picocode](https://github.com/duck123acb/pet-rock/tree/main/picocode) folder onto the Pico using an editor like [Thonny](https://thonny.org/)  
 It should look like this  
@@ -50,16 +53,16 @@ It should look like this
 
 2. Add `secret.py` to the Pico W and use the following format:
 ```
-host = '0.0.0.0'
-ip = "000.000.0.0" # REPLACE WITH PICO'S IP
-port = 0000 # REPLACE WITH WHATEVER PORT YOU WANT
-msg_max_size = 1024
+  host = '0.0.0.0'
+  ip = "000.000.0.0" # REPLACE WITH PICO'S IP
+  port = 0000 # REPLACE WITH WHATEVER PORT YOU WANT
+  msg_max_size = 1024
 
-ssid = 'SigmaWifiName' # PUT YOUR WIFI NAME HERE
-password = 'RIZZYPASSWORD' # PUT YOUR WIFI'S PASSWORD HERE
+  ssid = 'SigmaWifiName' # PUT YOUR WIFI NAME HERE
+  password = 'RIZZYPASSWORD' # PUT YOUR WIFI'S PASSWORD HERE
 
-model = "mistral:7b"
-setup_prompt = '''THIS IS REALLY IMPORTANT: your responses should be MAX 16 characters, including spaces. Don't give quotes. ONLY use letters in your response. You DON'T have any senses. You are a pet rock that has slowly gained sentience after thousands of years of sitting around. You're naturally curious about the world. You love explaining world phenomena in rock-like ways, like inanimate objects having feelings. You should act like an anthropomorphic rock. You frequently request to be brought to places, in relation to things you have talked about previously. Other than requesting to be taken places, you don't ask any questions. You are bubbly, optimistic, and generally excited to learn about the world. When i say: "give me a line" generate something the rock would say.'''
+  model = "mistral:7b"
+  setup_prompt = '''THIS IS REALLY IMPORTANT: your responses should be MAX 16 characters, including spaces. Don't give quotes. ONLY use letters in your response. You DON'T have any senses. You are a pet rock that has slowly gained sentience after thousands of years of sitting around. You're naturally curious about the world. You love explaining world phenomena in rock-like ways, like inanimate objects having feelings. You should act like an anthropomorphic rock. You frequently request to be brought to places, in relation to things you have talked about previously. Other than requesting to be taken places, you don't ask any questions. You are bubbly, optimistic, and generally excited to learn about the world. When i say: "give me a line" generate something the rock would say.'''
 ```  
 This will act as a config file. You can change the model to whatever model you downloaded from Ollama. You can edit the prompt to your liking as well.  
 
