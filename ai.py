@@ -1,4 +1,6 @@
 import requests
+import secret
+import time
 
 '''
 you need to run ollama serve beforehand
@@ -10,8 +12,8 @@ def make_request(prompt):
   response = requests.post(
     "http://localhost:11434/api/generate",
     json={
-      f'model': "mistral",
-      "prompt": "{prompt}",
+      'model': "llama3.2",
+      "prompt": f"{prompt}",
       "stream": False
     }
   )
@@ -20,3 +22,10 @@ def make_request(prompt):
   # Parse the response
   data = response.json()
   return data["response"]
+
+'testing'
+# print(make_request(secret.setup_prompt))
+
+# while True:
+#   print(make_request("give me a line"))
+#   time.sleep(3)
