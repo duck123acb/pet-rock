@@ -1,12 +1,13 @@
-# Sentient Stone 🪨🤖
+# Little Guy AI
 ## Overview
-Pet Rock is a quirky and interactive project that brings a sentient rock to life using [mistral](https://mistral.ai/):7b. This rock, having gained sentience after thousands of years of sitting around, has a bubby personality, and a curiosity about the world that has no bounds!
+Have you ever wanted a pet paperweight?  
+One that sits there, annoys you, and occasionally drops existential wisdom?
+Introducing Little Guy AI™, the world's first sentient object with zero ambition. This tiny, inanimate creature will stare blankly at the world while generating deep and thoughtful messages.
 
 It’s powered by [Ollama](https://ollama.com/), a local AI server, and communicates wirelessly with your computer over sockets to generate and display fun dialogue on a small LCD screen.
 
 ## Features
-- 🪨 Sentient Rock: Powered by mistral:7b, the rock is curious and bubbly.
-- 💬 Dialogue Generation: Responds with short, poetic sentences!
+- 💬 Dialogue Generation: Talks with short, poetic sentences!
 - 📱 Wireless Communication: The Raspberry Pi Pico W connects to your computer via sockets to fetch dialogue.
 - 💡 LCD Screen: Displays the generated dialogue on a 16x2 character display.
 - 🔊 Buzzer: Emulates a 'speaking' noise with buzzing!
@@ -14,7 +15,7 @@ It’s powered by [Ollama](https://ollama.com/), a local AI server, and communic
 ## Components
 - Raspberry Pi Pico W: The brain of the operation.
 - Ollama with Mistral:7b: AI model for generating dialogue.
-- LCD 16x2: Displays the rock’s responses.
+- LCD 16x2: Displays the messages.
 - Passive Buzzer: To emulate a speaking voice.
 - Jumper Wires: To connect components like the LCD.
 - Breadboard: To easily connect the hardware to the Pico.
