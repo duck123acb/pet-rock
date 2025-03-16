@@ -1,4 +1,4 @@
-# Pet Rock Project 🪨🤖
+# Sentient Stone 🪨🤖
 ## Overview
 Pet Rock is a quirky and interactive project that brings a sentient rock to life using [mistral](https://mistral.ai/):7b. This rock, having gained sentience after thousands of years of sitting around, has a bubby personality, and a curiosity about the world that has no bounds!
 
