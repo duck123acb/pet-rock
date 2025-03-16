@@ -12,7 +12,7 @@ It’s powered by [Ollama](https://ollama.com/), a local AI server, and communic
 - 🔊 Buzzer: Emulates a 'speaking' noise with buzzing!
 
 ## Components
-- Raspberry Pi Pico: The brain of the operation.
+- Raspberry Pi Pico W: The brain of the operation.
 - Ollama with Mistral:7b: AI model for generating dialogue.
 - LCD 16x2: Displays the rock’s responses.
 - Passive Buzzer: To emulate a speaking voice.
@@ -28,7 +28,7 @@ It’s powered by [Ollama](https://ollama.com/), a local AI server, and communic
 - Install any model using Ollama (we used [Mistral](https://ollama.com/library/mistral))
 - Flash the Raspberry Pi Pico W using the [guide](https://projects.raspberrypi.org/en/projects/get-started-pico-w/1). (You only need to follow this page!)
 ### Steps to Build:
-1. Connect the Raspberry Pi Pico to the breadboard
+1. Connect the Raspberry Pi Pico W to the breadboard
 2. Connect the LCD to the breadboard. 
 ```
   Ground - GND
