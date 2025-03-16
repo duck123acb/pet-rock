@@ -8,11 +8,11 @@ you need to run ollama serve beforehand
 we're probably gonna use mistral, but we'll see
 '''
 
-def make_request(prompt):
+def make_request(prompt, model):
   response = requests.post(
     "http://localhost:11434/api/generate",
     json={
-      'model': "llama3.2",
+      'model': f"{model}",
       "prompt": f"{prompt}",
       "stream": False
     }

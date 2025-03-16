@@ -22,13 +22,15 @@ sends the ai prompts to the pi
   #     break
 
 def main():
-  ai.make_request(secret.setup_prompt)
+  ai.make_request(secret.setup_prompt, secret.model)
+  print(f"{secret.model} connected!")
 
   client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   client_socket.connect((secret.ip, secret.port))
 
   while True:
-    msg = ai.make_request("give me a line")
+    msg = ai.make_request("give me a line", secret.model)
+    print(msg)
     client_socket.sendall(msg.encode())
 
     if msg == "end":
