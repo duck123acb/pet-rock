@@ -1,6 +1,8 @@
 import socket
 import ai
 import secret
+from time import sleep
+from random import randint
 
 '''
 RUN THIS ON COMPUTER
@@ -31,6 +33,8 @@ def main():
 
     if msg == "end":
       break
+
+    sleep(randint(30, 60))
 
   client_socket.close()
 
