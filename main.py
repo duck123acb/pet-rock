@@ -20,7 +20,7 @@ sends the ai prompts to the pi
   #     break
 
 def main():
-  print(ai.make_request(secret.setup_prompt))
+  ai.make_request(secret.setup_prompt)
 
   client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   client_socket.connect((secret.ip, secret.port))

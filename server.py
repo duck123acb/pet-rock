@@ -31,6 +31,7 @@ while True:
   if data == b"end":
     break
 
+  print(data)
   # display data on the display
   
 
