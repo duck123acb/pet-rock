@@ -66,6 +66,8 @@ This will act as a config file. You can change the model to whatever model you d
 3. Add `secret.py` to the root of the project as well. Your project should look like this now.  
 ![File Structure](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8ef48421edd1210dfbfbe2276bce727007d4de3f_screenshoot_2025-03-16_at_3.59.23_pm.png)
 
-4. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink
+4. Run Ollama (or run `ollama serve` in your terminal idrk if ur not on a Mac)
 
-5. Enjoy!
+5. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink
+
+6. Enjoy!
