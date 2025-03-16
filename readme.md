@@ -71,6 +71,6 @@ This will act as a config file. You can change the model to whatever model you d
 
 4. Run Ollama (or run `ollama serve` in your terminal idrk if ur not on a Mac)
 
-5. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink
+5. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink when connecting to the Wi-Fi, and be solid when it's connected. The Pico will then blink 3 times when it's connected to the computer. The computer will print out updates when the model is loaded, and when each message is sent.
 
 6. Enjoy!
