@@ -3,6 +3,8 @@
 Have you ever wanted a pet paperweight?  
 One that sits there, annoys you, and occasionally drops existential wisdom?
 Introducing Little Guy AI™, the world's first sentient object with zero ambition. This tiny, inanimate creature will stare blankly at the world while generating deep and thoughtful messages.
+![roast](https://github.com/user-attachments/assets/6b4c30e2-c0b9-48cc-a017-fd733b7370d6)
+
 
 It’s powered by [Ollama](https://ollama.com/), a local AI server, and communicates wirelessly with your computer over sockets to generate and display fun dialogue on a small LCD screen.
 
@@ -75,3 +77,10 @@ This will act as a config file. You can change the model to whatever model you d
 5. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink when connecting to the Wi-Fi, and be solid when it's connected. The Pico will then blink 3 times when it's connected to the computer. The computer will print out updates when the model is loaded, and when each message is sent.
 
 6. Enjoy!
+
+
+# Images
+![IMG_1324 Large](https://github.com/user-attachments/assets/08944025-10a8-42d9-8f4b-5d92cb073eae)
+![IMG_1323 Large](https://github.com/user-attachments/assets/3438a558-c203-4181-b687-a8ec2e60cd06)
+![IMG_1321 Large](https://github.com/user-attachments/assets/6ca9f81c-e138-4f6a-a8ee-c7249937ae0c)
+
