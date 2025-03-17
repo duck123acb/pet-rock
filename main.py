@@ -37,7 +37,7 @@ def main():
     if msg == "end":
       break
 
-    sleep(randint(20, 40))
+    sleep(randint(20, 25))
 
   client_socket.close()
 
