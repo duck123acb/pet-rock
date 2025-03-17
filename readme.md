@@ -77,3 +77,10 @@ This will act as a config file. You can change the model to whatever model you d
 5. Run `main.py` on both your computer and the Raspberry Pi Pico W. It may take a few minutes to setup. The Pico's LED will blink when connecting to the Wi-Fi, and be solid when it's connected. The Pico will then blink 3 times when it's connected to the computer. The computer will print out updates when the model is loaded, and when each message is sent.
 
 6. Enjoy!
+
+
+# Images
+![IMG_1324 Large](https://github.com/user-attachments/assets/08944025-10a8-42d9-8f4b-5d92cb073eae)
+![IMG_1323 Large](https://github.com/user-attachments/assets/3438a558-c203-4181-b687-a8ec2e60cd06)
+![IMG_1321 Large](https://github.com/user-attachments/assets/6ca9f81c-e138-4f6a-a8ee-c7249937ae0c)
+
