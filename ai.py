@@ -1,28 +1,20 @@
-import requests
+import ollama
 import secret
-import time
 
 '''
 you need to run ollama serve beforehand
 
 we're probably gonna use mistral, but we'll see
 '''
-
-def make_request(prompt, model):
-  response = requests.post(
-    "http://localhost:11434/api/generate",
-    json={
-      'model': f"{model}",
-      "prompt": f"{prompt}",
-      "stream": False,
-      "context": []
-    }
+def make_request(user_prompt):
+  stream = ollama.generate(
+    model=secret.model,
+    prompt=f"{user_prompt}",
   )
 
+  return stream['response']
 
-  # Parse the response
-  data = response.json()
-  return data["response"]
+# make_request("")
 
 'testing'
 # print(make_request(secret.setup_prompt))
