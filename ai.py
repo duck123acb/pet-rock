@@ -14,7 +14,8 @@ def make_request(prompt, model):
     json={
       'model': f"{model}",
       "prompt": f"{prompt}",
-      "stream": False
+      "stream": False,
+      "context": []
     }
   )
 
