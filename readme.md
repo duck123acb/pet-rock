@@ -4,7 +4,7 @@ Have you ever wanted a pet paperweight?
 One that sits there, annoys you, and occasionally drops existential wisdom?
 Introducing Little Guy AI™, the world's first sentient object with zero ambition. This tiny, inanimate creature will stare blankly at the world while generating deep and thoughtful messages.  
 
-https://youtu.be/2iwDUVVXh9E
+https://youtu.be/2iwDUVVXh9E  
 ![roast](https://github.com/user-attachments/assets/6b4c30e2-c0b9-48cc-a017-fd733b7370d6)
 
 
