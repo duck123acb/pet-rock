@@ -3,6 +3,8 @@
 Have you ever wanted a pet paperweight?  
 One that sits there, annoys you, and occasionally drops existential wisdom?
 Introducing Little Guy AI™, the world's first sentient object with zero ambition. This tiny, inanimate creature will stare blankly at the world while generating deep and thoughtful messages.
+![roast](https://github.com/user-attachments/assets/6b4c30e2-c0b9-48cc-a017-fd733b7370d6)
+
 
 It’s powered by [Ollama](https://ollama.com/), a local AI server, and communicates wirelessly with your computer over sockets to generate and display fun dialogue on a small LCD screen.
 
