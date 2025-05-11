@@ -30,7 +30,7 @@ It’s powered by [Ollama](https://ollama.com/), a local AI server, and communic
 ### Prerequisites:
 - Install [Python](https://www.python.org/)
 - Install [Ollama](https://ollama.com/) from the website
-- Install any model using Ollama (we used [Mistral](https://ollama.com/library/mistral))
+- Install any model using Ollama (we used [llama3.2](https://ollama.com/library/llama3.2))
 - Flash the Raspberry Pi Pico W using the [guide](https://projects.raspberrypi.org/en/projects/get-started-pico-w/1). (You only need to follow this page!)
 ### Steps to Build:
 1. Connect the Raspberry Pi Pico W to the breadboard
